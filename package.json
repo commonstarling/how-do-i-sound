@@ -1,0 +1,24 @@
+{
+  "name": "how-do-i-sound",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/commonstarling/how-do-i-sound.git"
+  },
+  "author": "Sheena Ramirez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/commonstarling/how-do-i-sound/issues"
+  },
+  "homepage": "https://github.com/commonstarling/how-do-i-sound#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "watson-developer-cloud": "^2.38.0"
+  }
+}
