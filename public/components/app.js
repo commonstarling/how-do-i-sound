@@ -14,7 +14,7 @@ controller('AppCtrl', function($http, $scope) {
       var data = response.data.document_tone.tone_categories[0].tones;
       console.log(data);
       data.forEach(function(tone) {
-        that.results.push(`${tone.tone_name} = ${tone.score * 100}%`);
+        that.results.push(`${tone.tone_name} = ${Math.round(tone.score * 100)/100}%`);
       });
     });
   };
