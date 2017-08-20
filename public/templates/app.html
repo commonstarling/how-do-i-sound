@@ -1,4 +1,9 @@
 <div ng-controller="AppCtrl as app" class="container">
-  <button ng-click="app.getData()">Press me for a get request</button>
-  <div>{{app.results}}</div>
+  <form ng-submit="app.getData()">
+    <h5>Write what you'd like to say here:</h5>
+    <textarea rows="10" cols="50" type="text" ng-model="text" name="text"></textarea>
+    <input type="submit" id="submit" value="Submit">
+  </form>
+  <!-- <button ng-click="app.getData()">Press me for a get request</button> -->
+  <div ng-repeat="result in app.results">{{result}}</div>
 </div>
