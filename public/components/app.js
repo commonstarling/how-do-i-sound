@@ -11,6 +11,7 @@ controller('AppCtrl', function($http, $scope) {
     var params = {text: $scope.text};
     $scope.text = '';
     $http.get('/apirequest', {params: params}).then(function(response) {
+      console.log(response);
       var data = response.data.document_tone.tone_categories[0].tones;
       console.log(data);
       data.forEach(function(tone) {
