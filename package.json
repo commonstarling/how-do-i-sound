@@ -21,7 +21,7 @@
     "body-parser": "^1.17.2",
     "express": "^4.15.4",
     "mongo": "^0.1.0",
-    "mongoose": "^4.11.7",
+    "mongoose": "^5.7.5",
     "watson-developer-cloud": "^2.38.0"
   }
 }
