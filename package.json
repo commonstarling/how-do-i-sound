@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/commonstarling/how-do-i-sound#readme",
   "dependencies": {
-    "body-parser": "^1.17.2",
-    "express": "^4.15.4",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
     "mongo": "^0.1.0",
     "mongoose": "^4.11.7",
     "watson-developer-cloud": "^2.38.0"
